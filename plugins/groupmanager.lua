@@ -1,5 +1,4 @@
---begin groupmanager by @BeyondTeam :)
---This Is Self Bot Based On BDReborn :D
+
 local function action_by_reply(arg, data)
    local cmd = arg.cmd
   if data.sender_user_id_ then
