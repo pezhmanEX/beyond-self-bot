@@ -242,35 +242,14 @@ local text = [[
 *!settings*
 _Send Self Bot Settings_
 
-*!gpid*
-_Show Group Id_
-
 *!tosuper*
 _Change Chat To Channel_
-
-*!chatlist*
-_Show Name List_
-
-*!chat + name answer*
-_Set Chat Name And Answer_
-
-*!chat - name*
-_Disabeled Chatting in Group_
 
 *!chat clean*
 _Clean Name And Answers_
 
-*!delmy*`[name | username]`
-_Delete Name Or Username_
-
-*!markread* `[on | off]`
-_Change Markread Status_
-
 *!autoleave* `[on | off]`
 _Set Auto Leave Status_
-
-*!antiflood* `[on | off]`
-_Set Anfi Flood Status_
 
 *!self* `[on | off]`
 _Set Self Bot Status In Group_
@@ -320,38 +299,11 @@ _Added A New Contact_
 *!delcontact* `[phone]`
 _Delete Contact_
 
-*!addname* `[name]`
-_Add New Name To Name List_
-
-*!remname* `[name]`
-_Remove Name From Name List_
-
-*!setanswer* `[answer]`
-_Add New Answer To Answer List_
-
-*!remanswer* `[answer]`
-_Remove Answer From Answer List_
-
-*!namelist*
-_Show Names List_
-
-*!answerlist*
-_Show Answers List_
-
-*!pvsetflood* `[msgs]`
-_Tet The Maximum Messages In A Floodtime To Be Considered As Flood_
-
-*!pvfloodtime* `[secs]`
-_Set The Time That Bot Uses To Check Flood_
-
 *!block* `[reply | id | username]`
 _Block User_
 
 *!unblock* `[reply | id | username]`
 _UnBlock User_
-
-*!sendfile* `[folder] [file]`
-_Send file from folder_
 
 *!sendplug* `[plug]`
 _Send plugin_
@@ -359,14 +311,8 @@ _Send plugin_
 *!save* `[plugin name] [reply]`
 _Save plugin by reply_
 
-*!savefile* `[adress/filename] [reply]`
-_Save File by reply to specific folder_
-
 *!edit* `[text] [reply]`
 _Edit Your meesage by reply to specific message_
-
-*!clear cache*
-_Clear All Cache Of .telegram-cli/data_
 
 *!helpfun*
 _Show Fun Help_
